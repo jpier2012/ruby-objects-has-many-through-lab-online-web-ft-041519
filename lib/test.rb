@@ -7,4 +7,5 @@ rap = Genre.new("rap")
 
 jimmers.new_song("Song one", rap)
 puts jimmers
+puts rap
 puts jimmers.songs
