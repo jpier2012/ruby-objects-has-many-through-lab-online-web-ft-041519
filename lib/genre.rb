@@ -4,7 +4,7 @@ class Genre
   attr_accessor :songs
 
   def initialize
-
+    @@all << self
   end
 
   def self.all
