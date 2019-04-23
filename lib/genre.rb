@@ -16,6 +16,6 @@ class Genre
   end
 
   def artist
-    self.songs.collect { |song| song.artist.name}
+    self.songs.collect { |song| song.artist.name }
   end
 end
