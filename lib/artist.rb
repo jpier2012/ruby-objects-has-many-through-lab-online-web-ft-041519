@@ -4,6 +4,8 @@ class Artist
   attr_accessor :name, :songs
 
   def initialize
+
+    @songs << self
     @@all << self
   end
 
