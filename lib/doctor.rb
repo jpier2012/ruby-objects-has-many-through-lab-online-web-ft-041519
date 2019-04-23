@@ -21,7 +21,7 @@ class Doctor
   end
 
   def patients
-    self.appointments.collect { |app| app.doctor == self }
+    self.appointments.collect(&:patient)
   end
 
 end
