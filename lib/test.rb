@@ -6,3 +6,5 @@ jimmers = Artist.new("Jimmers")
 rap = Genre.new("rap")
 
 jimmers.add_song("Song one", rap)
+
+puts jimmers.songs
