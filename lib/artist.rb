@@ -7,5 +7,5 @@ class Artist
 
   def self.all
     @@all
-  emd
+  end
 end
