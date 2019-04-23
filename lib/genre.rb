@@ -3,6 +3,10 @@ class Genre
 
   attr_accessor :songs
 
+  def initialize
+
+  end
+
   def self.all
     @@all
   end
