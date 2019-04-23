@@ -12,4 +12,8 @@ class Doctor
     @@all
   end
 
+  def appointments
+    Appointment.all.collect(&:name)
+  end
+
 end
