@@ -13,7 +13,7 @@ class Doctor
   end
 
   def appointments
-    Appointment.all.collect(&:name)
+    Appointment.all.select { |app| app.doctor == self }
   end
 
 end
